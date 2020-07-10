@@ -79,6 +79,7 @@ h2:after {
 
 h3 {
 	font-size: 110%;
+	padding-left: 0px;
 	margin-bottom: 15px;
 
 }
@@ -184,13 +185,23 @@ section div h2 {
 	color: #000;
 	text-align: center;
 	background-color: #f4f4f4;
+	display: flex;
+  	align-items: center;
+  	justify-content: center
 }
+
+
+
+
+
+
 
 /*------------------------------------------*/
 /*SECTION - WORK*/
 /*------------------------------------------*/
 
 .showcase {
+
 	list-style: none;
 	width: 100%;
 }
@@ -206,6 +217,8 @@ section div h2 {
 	margin: 0;
 	overflow: hidden;
 	background-color: #000;
+	text-align: center;
+  	position: relative;
 }
 
 .project img {
@@ -223,6 +236,14 @@ section div h2 {
 
 .description {
 	visibility: hidden;
+}
+
+
+.status {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 }
 
 /*------------------------------------------*/
@@ -288,9 +309,16 @@ cite img {
 	
 }
 
+#resume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 input[type=text],
 input[type=email], 
 textarea {
+	font-family: 'Ubuntu', 'Arial', sans-serif;
 	width: 100%;
 	padding: 7px;
 	border-radius: 3px;
@@ -301,7 +329,7 @@ textarea {
 	height: 100px;
 }
 
-input[type=submit] {
+button {
 	background-color: #E67E22;
 	color: #fff;
 	display: inline-block;
@@ -312,8 +340,8 @@ input[type=submit] {
 	transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
-input[type=submit]:hover,
-input[type=submit]:active {
+button:hover,
+button:active {
 	background-color: #CF6D17;
 	border: 1px solid #CF6D17;
 }

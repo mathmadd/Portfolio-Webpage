@@ -43,9 +43,9 @@
 
 	<section class="skills" id="skills">
 		<div class="row">
-			<h2>What I Can Do For You</h2>
+			<h2>Skills & Certifcations</h2>
 
-		<div class="col span-1-of-3 box">
+		<div class="col span-1-of-3">
 			<ion-icon name="code"></ion-icon>
 			<h3>Programming</h3>
 			<ul>
@@ -53,6 +53,7 @@
 				<li>Java</li>
 				<li>Python</li>
 				<li>HTML/CSS</li>
+				<li>JavaScript</li>
 			</ul>
 		</div>
 		<div class="col span-1-of-3 box">
@@ -60,50 +61,90 @@
 			<h3>Big Data & Cloud</h3>
 			<ul>
 				<li>Hadoop</li>
-				<li>Scala/Spark</li>
+				<li>Scala</li>
+				<li>Spark</li>
 				<li>SQL</li>
-				<li>AWS</li>
+
 			</ul>
 		</div>
 		<div class="col span-1-of-3 box">
-			<ion-icon name="desktop"></ion-icon>
+			<ion-icon name="power-outline"></ion-icon>
 			<h3>Computer Engineering</h3>
 			<ul>
 				<li>Embedded Systems</li>
-				<li>Network Security</li>
-				<li>Computer Architecture</li>
-				<li>FPGAs</li>
+				<li>Comp. Architecture</li>
+				<li>Circuit Analysis</li>
+				<li>Digital Logic & FPGAs</li>
 
 			</ul>
 		</div>	
+		<div class="col span-1-of-3 box">
+			<ion-icon name="desktop"></ion-icon>
+			<h3>Automation Testing</h3>
+			<ul>
+				<li>JUnit</li>
+				<li>Selenium</li>
+				<li>Cucumber BDD</li>
+
+			</ul>
+		</div>	
+
+		<div class="col span-1-of-3 box">
+			<ion-icon name="construct-outline"></ion-icon>
+			<h3>Software Tools</h3>
+			<ul>
+				<li>AWS</li>
+				<li>Xilinx</li>
+				<li>MATLAB</li>
+				<li>Bootstrap</li>
+				<li>Eclipse & IntelliJ</li>
+
+			</ul>
+		</div>
+
+		<div class="col span-1-of-3 box">
+			<ion-icon name="ribbon-outline"></ion-icon>
+			<h3>Certifications</h3>
+			<ul>
+				<li>AWS Solutions Architect (actively pursuing)</li>
+				<li>CCNA (actively pursuing)</li>
+			</ul>
+		</div>
+
+
+
         </div>
 	
 	</section>
 
 	<section class="portfolio" id="portfolio">
 		<div class="row">
-			<h2>Projects</h2>
+			<h2>Projects & Work</h2>
 		</div>
 		  <ul class="showcase">
 			<li>
 				<figure class="project">
 					<img src="resources/img/ryu.jpg" alt="ryu">
+						<div class="status">Coming Soon!</div>
 				</figure>
 			</li>
 			<li>
 				<figure class="project">
 					<img src="resources/img/action-figure.jpg" alt="panther">
+						<div class="status">Coming Soon!</div>
 				</figure>
 			</li>
 			<li>
 				<figure class="project">
 					
 					<img src="resources/img/deadpool.jpg" alt="deadpool">
+						<div class="status">Coming Soon!</div>
 				</figure>
 			</li>
 			<li>
 				<figure class="project">
 					<img src="resources/img/ant-man.jpg" alt="ant man">
+						<div class="status">Coming Soon!</div>
 				</figure>
 			</li>
 		  </ul>
@@ -129,54 +170,15 @@
 
     <section class="form" id="contact">
     	<div class="row">
-    		<h2>Let's Work Together!</h2>
+    		<h2>Let's Get In Touch!</h2>
     	</div>
-    	<div class="row">
-    		<form method="post" action="#" class="contact-form">
-    			<div class="row">
-    				<div class="col span-1-of-3">
-    					<label>Name</label>
-    				</div>
-    				<div class="col span-2-of-3">
-    					<input type="text" name="name" id="name" placeholder="John Doe" required>
-    				</div>
-    			</div>
-		<div class="row">
-    				<div class="col span-1-of-3">
-    					<label>Email</label>
-    				</div>
-    				<div class="col span-2-of-3">
-    					<input type="email" name="email" id="email" placeholder="johndoe@email.com" required>
-    				</div>
-    			</div>
-    	<div class="row">
-    				<div class="col span-1-of-3">
-    					<label>Subject</label>
-    				</div>
-    				<div class="col span-2-of-3">
-    					<input type="text" name="subject" id="subject" placeholder="You know the deal" required>
-    				</div>
-    			</div>
-    	<div class="row">
-    				<div class="col span-1-of-3">
-    					<label>Message</label>
-    				</div>
-    				<div class="col span-2-of-3">
-    					<textarea  name="message" placeholder="What's on your mind?"></textarea>
-    				</div>
-    			</div>
-    	<div class="row">
-    				<div class="col span-1-of-3">
-    					<label>&nbsp</label>
-    				</div>
-    				<div class="col span-2-of-3">
-    					<input type="submit" value="SUBMIT">
-    				</div>
-    			</div>
-    		</form>
+    	<div class="row" id="resume">
+
+    		    <button onclick="document.location='resources/Maddox_Resume_2020_GS.pdf';">Resume</button>
     	</div>
     </section>
-
+      Click Here
+    </button>
     <footer>
     	<div class="row">
     		<div class="col span-1-of-2">
@@ -203,6 +205,6 @@
     	</div> 	
     </footer>
 
-<script src="https://unpkg.com/ionicons@4.5.0/dist/ionicons.js"></script>
+<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </body>
 </html>
