@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Pacifico">
 
@@ -17,13 +18,13 @@
 	<header>
 		<nav>
 			<div class="row">
-				<ul class="main-nav">
+				<ul class="main-nav js-main-nav">
 					<li><a href="#aboutme">About</a></li>
 					<li><a href="#skills">Skills</a></li>
 					<li><a href="#portfolio">Work</a></li>
 					<li><a href="#contact">Contact</a></li>
-
 				</ul>
+				<a class="mobile-nav-icon js-nav-icon"><ion-icon id="nav-mobile" name="reorder-three"></ion-icon></a>
 			</div>
 		</nav>
 		<div>
@@ -81,7 +82,7 @@
 
 			</div>
 
-			<div class="row" id="skillz">
+			<div class="row">
 				<div class="col span-1-of-3 box">
 					<ion-icon name="desktop"></ion-icon>
 					<h3>Automation Testing</h3>
@@ -119,28 +120,29 @@
 			<div class="row">
 				<h2>Projects & Work</h2>
 			</div>
-			<ul class="showcase">
-				<li>
-					<figure class="project">
-						<img src="resources/css/img/ryu.jpg" alt="ryu">
+			<ul class="showcase clearfix">
+				<li id="project1">
+					<figure class="project-photo">
+						<a href="">
+						<img src="resources/css/img/spiderman.jpg" alt="spiderman">
+						</a>
 						<div class="status">Coming Soon!</div>
 					</figure>
 				</li>
-				<li>
-					<figure class="project">
+				<li id="project2">
+					<figure class="project-photo">
 						<img src="resources/css/img/action-figure.jpg" alt="panther">
 						<div class="status">Coming Soon!</div>
 					</figure>
 				</li>
-				<li>
-					<figure class="project">
-
+				<li id="project3">
+					<figure class="project-photo">
 						<img src="resources/css/img/deadpool.jpg" alt="deadpool">
 						<div class="status">Coming Soon!</div>
 					</figure>
 				</li>
-				<li>
-					<figure class="project">
+				<li id="project4">
+					<figure class="project-photo">
 						<img src="resources/css/img/ant-man.jpg" alt="ant man">
 						<div class="status">Coming Soon!</div>
 					</figure>
@@ -148,7 +150,7 @@
 			</ul>
 		</section>
 
-		<section class="resume">
+		<section class="resume" id="resume">
 			<div class="row">
 				<button onclick="document.location='resources/files/Resume_2020.pdf';">Resume</button>
 			</div>
@@ -248,7 +250,7 @@
 				</div> 	
 			</footer>
 			
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 			<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 			<script src="vendors/js/jquery.waypoints.min.js"></script>
 			<script src="resources/js/scripts.js"></script>
